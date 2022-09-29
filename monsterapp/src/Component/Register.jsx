@@ -1,7 +1,8 @@
 import React, { useState } from 'react'
 import {VStack,Heading,Text,Grid,GridItem,FormControl,FormLabel,Input,Textarea,Select,Button,Center,Box,state,setter} from "@chakra-ui/react"
 
-import { navigate,useNavigate } from 'react-router-dom'
+import { useNavigate } from 'react-router-dom'
+import Navbaar from './Navbaar'
 const initstate={
   Name:"",
   Email:"",
@@ -44,6 +45,7 @@ const handleClick=()=>{
 
   return (
     <div>
+   
         
         <h1>Register</h1>
 <Center>
@@ -183,7 +185,7 @@ const handleClick=()=>{
                     // color={"white"}
                     // fontSize={"20px"}
                     // padding="25px"
-                    marginLeft={"350px"} onClick={handleClick}>Registred</Button>
+                    marginLeft={"0px"} onClick={handleClick}>Registred</Button>
 </FormControl>
   </GridItem>
 

@@ -3,10 +3,6 @@ import { useNavigate } from 'react-router-dom';
 
 
 
-
-
-
-
 const initstate={
    
   Email:"",
@@ -37,7 +33,7 @@ const handleClick=()=>{
   console.log(user)
   // if(user.length===0&&formdatas.Email===""&&formdatas.Password===""){
  if(user.length!==0){
-  navigate("/Home")
+  navigate("/")
   }
   else{
     alert("Fill correct details")

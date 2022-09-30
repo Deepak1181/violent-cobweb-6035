@@ -35,13 +35,13 @@ function Homefirst() {
               <Flex flexWrap='wrap' gap='24px' justifyContent='space-evenly'>
         {/* adding filter property to the element */}
       
-        <Box sx={basicBoxStyles} filter='grayscale(80%)' >
-        <h1 style={{marginRight:"550px"}}>500,000+ Jobs.Find Better.Fast</h1>
+        <Box sx={basicBoxStyles} filter='grayscale(90%)' >
+        <h1 style={{marginRight:"950px"}}>500,000+ Jobs.Find Better.Fast</h1>
 
-        <div style={{display:'flex' ,marginTop:"-55px", marginLeft:"50px"}}>
+        <div style={{display:'flex' ,marginTop:"5px", marginLeft:"0px"}}>
      <h5><Menu closeOnSelect={true}>
-  <MenuButton as={Button}  colorScheme='blue' border="none" >
-    JOB SEARCH
+  <MenuButton as={Button}  colorScheme='blue' border="none" marginLeft="10px" >
+    All Jobs
   </MenuButton>
   <MenuList minWidth='200px' color="black">
     <MenuOptionGroup defaultValue='asc' type='radio' >
@@ -63,8 +63,8 @@ function Homefirst() {
 
 
      <h5><Menu closeOnSelect={true}>
-  <MenuButton as={Button}  colorScheme='blue' border="none" >
-    JOB SEARCH
+  <MenuButton as={Button}  colorScheme='blue' border="none" marginLeft="10px" >
+    Work From Home
   </MenuButton>
   <MenuList minWidth='200px' color="black">
     <MenuOptionGroup defaultValue='asc' type='radio'>
@@ -84,8 +84,8 @@ function Homefirst() {
     
 
      <h5><Menu closeOnSelect={true}>
-  <MenuButton as={Button}  colorScheme='blue' border="none" >
-    JOB SEARCH
+  <MenuButton as={Button}  colorScheme='blue' border="none" marginLeft="10px" >
+    Contract Jobs
   </MenuButton>
   <MenuList minWidth='200px' color="black">
     <MenuOptionGroup defaultValue='asc' type='radio'>
@@ -105,29 +105,8 @@ function Homefirst() {
     
 
      <h5><Menu closeOnSelect={true}>
-  <MenuButton as={Button}  colorScheme='blue' border="none" >
-    JOB SEARCH
-  </MenuButton>
-  <MenuList minWidth='200px' color="black">
-    <MenuOptionGroup defaultValue='asc' type='radio'>
-      <MenuItemOption value='asc'>Job By Location</MenuItemOption>
-      <MenuItemOption value='desc'>Job By Skill</MenuItemOption>
-
-      <MenuItemOption value='email'>Job By Title</MenuItemOption>
-      <MenuItemOption value='phone'>Job By Function</MenuItemOption>
-      <MenuItemOption value='country'>Job By Industry</MenuItemOption>
-      <MenuItemOption value='edu'>Job By Education</MenuItemOption>
-      <MenuItemOption value='fres'>Fresher Jobs</MenuItemOption>
-      <MenuItemOption value='other'> Other Job </MenuItemOption>
-      <MenuItemOption value='com'> Job by Company </MenuItemOption>
-    </MenuOptionGroup>
-  </MenuList>
-</Menu></h5>
-
-
-     <h5><Menu closeOnSelect={true}>
-  <MenuButton as={Button}  colorScheme='blue' border="none" >
-    JOB SEARCH
+  <MenuButton as={Button}  colorScheme='blue' border="none" marginLeft="10px" >
+    Fresher Jobs
   </MenuButton>
   <MenuList minWidth='200px' color="black">
     <MenuOptionGroup defaultValue='asc' type='radio'>
@@ -149,8 +128,8 @@ function Homefirst() {
      
 </div>
 <div style={{width:"40%"  ,marginBottom:"490px"}}>
-<input style={{width:"65%"}} type="text" placeholder='Search by Skill, Company , Job Title' />
-<button>Search</button>
+<input style={{width:"65%", marginTop:"20px",marginLeft:"-50px" ,color:"black"}} type="text" placeholder='Search by Skill, Company , Job Title' />
+<Button style={{backgroundColor:"black",marginLeft:"20px"}}>Search</Button>
 <p>Trending Searches:     Jobs in Delhi, Jobs in Mumbai,  Jobs in Bangalore, Jobs in Chennai, Jobs in Pune, Jobs in Kolkata, </p>
 </div>
         </Box>

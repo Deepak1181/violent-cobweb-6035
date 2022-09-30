@@ -6,7 +6,7 @@ export default function Navbaar() {
   return (
     <div style={{display:"flex",flexWrap:"wrap",
    
-    gap:"20px",
+    gap:"10px",
     marginLeft:"000px"
     
     }}>
@@ -15,11 +15,11 @@ export default function Navbaar() {
     <Link to="/" >
     <img src="https://media.monsterindia.com/trex/public/default/images/monster-logo.svg" alt="" /></Link>
 </Heading>
-  <h5><Menu closeOnSelect={true}>
+  <h5><Menu closeOnSelect={false}>
   <MenuButton as={Button}  colorScheme='blue' border="none" >
     JOB SEARCH
   </MenuButton>
-  <MenuList minWidth='200px' zIndex={300}>
+  <MenuList minWidth='150px' zIndex={300}>
     <MenuOptionGroup defaultValue='asc' type='radio'>
       <MenuItemOption value='asc'>Job By Location</MenuItemOption>
       <MenuItemOption value='desc'>Job By Skill</MenuItemOption>
@@ -43,7 +43,7 @@ export default function Navbaar() {
   <MenuButton as={Button}  colorScheme='blue'  border="none">
     WORK FROM HOME
   </MenuButton>
-  <MenuList minWidth='200px' zIndex={300}>
+  <MenuList minWidth='150px' zIndex={300}>
     <MenuOptionGroup defaultValue='asc' type='radio'>
       <MenuItemOption value='asc'>Job By Location</MenuItemOption>
       <MenuItemOption value='desc'>Job By Skill</MenuItemOption>
@@ -68,7 +68,7 @@ export default function Navbaar() {
   <MenuButton as={Button} colorScheme='blue' border="none">
    CAREER TIPS
   </MenuButton>
-  <MenuList minWidth='200px' zIndex={300}>
+  <MenuList minWidth='150px' zIndex={300}>
     <MenuOptionGroup defaultValue='asc' type='radio'>
       <MenuItemOption value='Bang'>Covid 19 CAREER ADVICE</MenuItemOption>
       <MenuItemOption value='Del'>Job Search Stratery</MenuItemOption>
@@ -107,7 +107,7 @@ export default function Navbaar() {
   
 
   <HStack style={{
-     marginTop:"-30px",
+     marginTop:"-15px",
   }}>
      
     {/* <Link to="/">Home</Link> */}

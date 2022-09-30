@@ -3,13 +3,14 @@ import {VStack,Heading, HStack,Button, Spacer, Menu, MenuButton, MenuList, MenuO
 import { Link } from 'react-router-dom'
 import Homefirst from './Homefirst'
 import HomeSlider from './HomeSlider'
+import Home2 from './Home2'
 
 
 export default function Home() {
   return (
     <>
 <Homefirst/>
-<HomeSlider/>
+<Home2/>
 </>
   )
 }

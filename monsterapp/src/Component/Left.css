@@ -1,0 +1,32 @@
+#left{
+    display: flex;
+    width:70%;
+    height:125px;
+    background-color: rgb(249,230,175);
+    margin-left: 40px;
+    margin-top: 10px;
+   
+}
+#leftimage{
+    width:390px;
+    height:695px;
+}
+#text{
+    margin-left: -20px; 
+}
+#text>h2{
+    font-weight: bolder;
+    margin-top: 8px;
+    text-align: left;
+    font-size: 20px;
+}
+#left2>h2{
+    font-weight: bolder;
+    font-size: 20px;
+}
+#left2{
+  background-color: rgb(244,244,245);
+  width: 70%;
+  margin-left: 40px;
+  margin-top: 10px;
+}

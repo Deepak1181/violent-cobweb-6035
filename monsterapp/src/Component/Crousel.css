@@ -1,0 +1,47 @@
+#mon1{
+    border: 1px solid transparent;
+    width: 800px;
+    margin-left: 20px;
+    height: 150px;
+    display: flex;
+   margin-top: 10px;
+    background-color: rgb(239,248,236);
+}
+#mon1 div{
+    border: 1px solid transparent;
+    margin: auto;
+  
+    height: 100%;
+   
+}
+#mon1 div:nth-child(1){
+    width: 20%;
+}
+#mon1 div:nth-child(2){
+    width: 55%;
+}
+#mon1 div:nth-child(3){
+    width: 25%;
+}
+#mon1>img{
+    width: 20%;
+    height: 100%;
+    border: 1px solid transparent;
+}
+#mon1>div>h1{
+    font-weight: bolder;
+    margin-top: 20px;
+    text-align: left;
+    font-size: 20px;
+}
+#mon1>div>p{
+    font-size: 18px;
+}
+#monbtn{
+    margin-left: 40px;
+    margin-top: 107px;
+    background-color: rgb(107,80,167);
+    color: white;
+    border-top-left-radius: 70%;
+    width: 140px;
+}

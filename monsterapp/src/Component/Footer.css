@@ -1,0 +1,12 @@
+#footer{
+    background-color: rgb(92,77,169);
+    border: 0px solid red;
+    display: flex;
+    gap:90px;
+    color:white;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+#footer>div{
+    margin-left: 20px;
+}

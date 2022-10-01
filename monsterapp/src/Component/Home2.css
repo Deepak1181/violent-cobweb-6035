@@ -1,1 +1,10 @@
- 
+ #home2{
+    font-size: 20px;
+    font-weight: bolder;
+ }
+ #home2>button{
+    color: rgb(92,76,168);
+ }
+ img{
+    margin: auto;
+ }

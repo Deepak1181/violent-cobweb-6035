@@ -7,7 +7,8 @@ export default function Navbaar() {
     <div style={{display:"flex",flexWrap:"wrap",
    
     gap:"10px",
-    marginLeft:"000px"
+    marginLeft:"000px",
+    marginTop:"20px"
     
     }}>
 

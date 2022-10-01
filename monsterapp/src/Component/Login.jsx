@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { useNavigate } from 'react-router-dom';
 
-
+import "./Login.css"
 
 const initstate={
    
@@ -43,11 +43,13 @@ const handleClick=()=>{
 
 
   return (
-    <div>Login
+    <div id="login1">
+      <h1>Login</h1>
+<br />
 
 <input type="email" name="Email" placeholder='Email' onChange={handleChange}/>
 <input type="password" name="Password" placeholder='password' onChange={handleChange}/>
-<button onClick={handleClick}>Login</button>
+<button id="sub" onClick={handleClick}>Login</button>
     </div>
   )
 }

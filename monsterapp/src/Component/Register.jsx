@@ -3,6 +3,7 @@ import {VStack,Heading,Text,Grid,GridItem,FormControl,FormLabel,Input,Textarea,S
 
 import { useNavigate } from 'react-router-dom'
 import Navbaar from './Navbaar'
+import "./Register.css"
 const initstate={
   Name:"",
   Email:"",
@@ -47,9 +48,9 @@ const handleClick=()=>{
     <div>
    
         
-        <h1>Register</h1>
+        <h1 id="regh1">Register</h1>
 <Center>
-        <Box w={"150px"}>
+        <Box  id="bx" >
 <GridItem rowSpan={1} colSpan={{base:2,md:1}} >
 
 

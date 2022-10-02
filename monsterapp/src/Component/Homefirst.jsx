@@ -128,8 +128,8 @@ function Homefirst() {
      
 </div>
 <div style={{width:"40%"  ,marginBottom:"490px"}}>
-<input style={{width:"65%", marginTop:"20px",marginLeft:"-50px" ,color:"black"}} type="text" placeholder='Search by Skill, Company , Job Title' />
-<Button style={{backgroundColor:"black",marginLeft:"20px"}}>Search</Button>
+<input style={{width:"85%", marginTop:"20px",marginLeft:"-11px" ,color:"black"}} type="text" placeholder='Search by Skill, Company , Job Title' />
+<Button style={{backgroundColor:"black",}}>Search</Button>
 <p>Trending Searches:     Jobs in Delhi, Jobs in Mumbai,  Jobs in Bangalore, Jobs in Chennai, Jobs in Pune, Jobs in Kolkata, </p>
 </div>
         </Box>
